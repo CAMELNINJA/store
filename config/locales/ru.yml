@@ -1,0 +1,5 @@
+en:
+  hello: "Привет мир"
+  products:
+    index:
+      title: "Продукты"
