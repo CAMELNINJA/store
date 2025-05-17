@@ -12,7 +12,7 @@ module Product::Notifications
 
   def notify_subscribes
     subscribers.each do |subscriber|
-      ProductMailer.with(product: self, subscriber: subscriber).in_stock.delivery_later
+      ProductMailer.with(product: self, subscriber: subscriber).in_stock.deliver_later
     end
   end
 end
